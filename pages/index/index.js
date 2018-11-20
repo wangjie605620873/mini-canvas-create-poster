@@ -1,131 +1,37 @@
 Page({
-  data: {
-    list: [
-      {
-        title: "国家会议中心阿拉丁年会",
-        image: "http://thirdwx.qlogo.cn/mmopen/5drgDUtzBT0qhUiaIxZgqkiaXMRwZYsibWFJE0K2TAQI1n3iciat9BuFicRV1kodCm1Ryb1g6FAzfHzKLlFCgBmadHT0OCHZl2jicOZ/132",
-        id: 1
-      },
-      {
-        title: "国家会议中心阿拉丁年会",
-        image: "http://thirdwx.qlogo.cn/mmopen/5drgDUtzBT0qhUiaIxZgqkiaXMRwZYsibWFJE0K2TAQI1n3iciat9BuFicRV1kodCm1Ryb1g6FAzfHzKLlFCgBmadHT0OCHZl2jicOZ/132",
-        id: 2
-      }, {
-        title: "国家会议中心阿拉丁年会",
-        image: "http://thirdwx.qlogo.cn/mmopen/5drgDUtzBT0qhUiaIxZgqkiaXMRwZYsibWFJE0K2TAQI1n3iciat9BuFicRV1kodCm1Ryb1g6FAzfHzKLlFCgBmadHT0OCHZl2jicOZ/132",
-        id: 3
-      }, {
-        title: "国家会议中心阿拉丁年会",
-        image: "http://thirdwx.qlogo.cn/mmopen/5drgDUtzBT0qhUiaIxZgqkiaXMRwZYsibWFJE0K2TAQI1n3iciat9BuFicRV1kodCm1Ryb1g6FAzfHzKLlFCgBmadHT0OCHZl2jicOZ/132",
-        id: 4
-      }, {
-        title: "国家会议中心阿拉丁年会",
-        image: "http://thirdwx.qlogo.cn/mmopen/5drgDUtzBT0qhUiaIxZgqkiaXMRwZYsibWFJE0K2TAQI1n3iciat9BuFicRV1kodCm1Ryb1g6FAzfHzKLlFCgBmadHT0OCHZl2jicOZ/132",
-        id: 5
-      }, {
-        title: "国家会议中心阿拉丁年会",
-        image: "http://thirdwx.qlogo.cn/mmopen/5drgDUtzBT0qhUiaIxZgqkiaXMRwZYsibWFJE0K2TAQI1n3iciat9BuFicRV1kodCm1Ryb1g6FAzfHzKLlFCgBmadHT0OCHZl2jicOZ/132",
-        id: 4
-      }, {
-        title: "国家会议中心阿拉丁年会",
-        image: "http://thirdwx.qlogo.cn/mmopen/5drgDUtzBT0qhUiaIxZgqkiaXMRwZYsibWFJE0K2TAQI1n3iciat9BuFicRV1kodCm1Ryb1g6FAzfHzKLlFCgBmadHT0OCHZl2jicOZ/132",
-        id: 5
-      }, {
-        title: "国家会议中心阿拉丁年会",
-        image: "http://thirdwx.qlogo.cn/mmopen/5drgDUtzBT0qhUiaIxZgqkiaXMRwZYsibWFJE0K2TAQI1n3iciat9BuFicRV1kodCm1Ryb1g6FAzfHzKLlFCgBmadHT0OCHZl2jicOZ/132",
-        id: 4
-      }, {
-        title: "国家会议中心阿拉丁年会",
-        image: "http://thirdwx.qlogo.cn/mmopen/5drgDUtzBT0qhUiaIxZgqkiaXMRwZYsibWFJE0K2TAQI1n3iciat9BuFicRV1kodCm1Ryb1g6FAzfHzKLlFCgBmadHT0OCHZl2jicOZ/132",
-        id: 5
-      }, {
-        title: "国家会议中心阿拉丁年会",
-        image: "http://thirdwx.qlogo.cn/mmopen/5drgDUtzBT0qhUiaIxZgqkiaXMRwZYsibWFJE0K2TAQI1n3iciat9BuFicRV1kodCm1Ryb1g6FAzfHzKLlFCgBmadHT0OCHZl2jicOZ/132",
-        id: 4
-      }, {
-        title: "国家会议中心阿拉丁年会",
-        image: "http://thirdwx.qlogo.cn/mmopen/5drgDUtzBT0qhUiaIxZgqkiaXMRwZYsibWFJE0K2TAQI1n3iciat9BuFicRV1kodCm1Ryb1g6FAzfHzKLlFCgBmadHT0OCHZl2jicOZ/132",
-        id: 5
-      }, {
-        title: "国家会议中心阿拉丁年会",
-        image: "http://thirdwx.qlogo.cn/mmopen/5drgDUtzBT0qhUiaIxZgqkiaXMRwZYsibWFJE0K2TAQI1n3iciat9BuFicRV1kodCm1Ryb1g6FAzfHzKLlFCgBmadHT0OCHZl2jicOZ/132",
-        id: 4
-      }, {
-        title: "国家会议中心阿拉丁年会",
-        image: "http://thirdwx.qlogo.cn/mmopen/5drgDUtzBT0qhUiaIxZgqkiaXMRwZYsibWFJE0K2TAQI1n3iciat9BuFicRV1kodCm1Ryb1g6FAzfHzKLlFCgBmadHT0OCHZl2jicOZ/132",
-        id: 5
-      }, {
-        title: "国家会议中心阿拉丁年会",
-        image: "http://thirdwx.qlogo.cn/mmopen/5drgDUtzBT0qhUiaIxZgqkiaXMRwZYsibWFJE0K2TAQI1n3iciat9BuFicRV1kodCm1Ryb1g6FAzfHzKLlFCgBmadHT0OCHZl2jicOZ/132",
-        id: 4
-      }, {
-        title: "国家会议中心阿拉丁年会",
-        image: "http://thirdwx.qlogo.cn/mmopen/5drgDUtzBT0qhUiaIxZgqkiaXMRwZYsibWFJE0K2TAQI1n3iciat9BuFicRV1kodCm1Ryb1g6FAzfHzKLlFCgBmadHT0OCHZl2jicOZ/132",
-        id: 5
-      }, {
-        title: "国家会议中心阿拉丁年会",
-        image: "http://thirdwx.qlogo.cn/mmopen/5drgDUtzBT0qhUiaIxZgqkiaXMRwZYsibWFJE0K2TAQI1n3iciat9BuFicRV1kodCm1Ryb1g6FAzfHzKLlFCgBmadHT0OCHZl2jicOZ/132",
-        id: 4
-      }, {
-        title: "国家会议中心阿拉丁年会",
-        image: "http://thirdwx.qlogo.cn/mmopen/5drgDUtzBT0qhUiaIxZgqkiaXMRwZYsibWFJE0K2TAQI1n3iciat9BuFicRV1kodCm1Ryb1g6FAzfHzKLlFCgBmadHT0OCHZl2jicOZ/132",
-        id: 5
-      }, {
-        title: "国家会议中心阿拉丁年会",
-        image: "http://thirdwx.qlogo.cn/mmopen/5drgDUtzBT0qhUiaIxZgqkiaXMRwZYsibWFJE0K2TAQI1n3iciat9BuFicRV1kodCm1Ryb1g6FAzfHzKLlFCgBmadHT0OCHZl2jicOZ/132",
-        id: 4
-      }, {
-        title: "国家会议中心阿拉丁年会",
-        image: "http://thirdwx.qlogo.cn/mmopen/5drgDUtzBT0qhUiaIxZgqkiaXMRwZYsibWFJE0K2TAQI1n3iciat9BuFicRV1kodCm1Ryb1g6FAzfHzKLlFCgBmadHT0OCHZl2jicOZ/132",
-        id: 5
-      }
-    ],
-    animationStart: "",
-    activeIndex: '',
-    startClient: '',
-    animationClose : "",
-  },
-  onLoad: function () {
-    this.animationStart = wx.createAnimation({
-      duration: 450,
-      timingFunction: 'ease',
-      delay: 0,
-      transformOrigin: 'left top 0',
-      success: function (res) {
-        this.setData({
-          startClient: ''
-        })
-      }
-    })
-    this.animationClose = wx.createAnimation({
-      duration: 450,
-      timingFunction: 'ease',
-      delay: 0,
-      transformOrigin: 'left top 0',
-      success: function (res) {}
-    })
-  },
-  touchS: function (e) {  //滑动开始
-  console.log(e,'start')
-    this.setData({
-      activeIndex: e.currentTarget.dataset.index, //设置当前滑动  元素的 index
-      startClient: e.changedTouches[0].clientX,   //滑动元素的  起始x  位置
-      animationStart: ""
-    })
-  },
-  touchE: function (e) { //滑动结束
-  console.log(e,'end')
-    var clientX = e.changedTouches[0].clientX  //计算当前移动的距离
+  data: {},
+  onShow: function () {
 
-    if (clientX - this.data.startClient > 60) {    //起始点 - 结束点   关闭
-      this.animationStart.left(0).step()
-    } else if (clientX - this.data.startClient  < -60) {  //打开
-      this.animationStart.left(-180).step()   
-      this.animationClose.left(0).step()//关闭上一个
-    }
-    this.setData({
-      animationStart: this.animationStart.export(),
-      animationClose: this.animationClose.export()
+  },
+  /*
+  获取图片，一般我们生成海报，海报上的二维码都是动态生成的，每次生成的二维码都不一样，且都是通过后台返回的图片地址。
+  包括海报背景也是动态，后台返回会来的。所以我们现下载图片，生成临时路径。
+  使用promise主要是海报可能有多个图片组成，必须等图片全部下载完成再去生成
+  */
+  getImage: function (url) {
+    return new Promise(function (res, rej) {
+      wx.getImageInfo({
+        src: url,
+        success: function (res) {
+          res(res)
+        },
+        fail: function () {
+          rej("")
+        }
+      })
     })
+  },
+  getImageAll: function (image_src) {
+    let that = this;
+    var all = [];
+    image_src.map(function (item) {
+      all.push()
+    })
+    return Promise.all([that.getImage(bg_img), that.getImage(qr_img)])
+  },
+  create: function () {
+
   }
+
+
 })
