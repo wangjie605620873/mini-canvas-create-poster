@@ -1,0 +1,4 @@
+/* Component/test.wxss */
+.inner {
+  color: red
+}
