@@ -1,1 +1,19 @@
-<view>111111</view>
+<view>1.将下面两张图片画到canvas上，写上一句hellow world，并保存到本地。</view>
+
+<view>2.生成时图片都都是网络图片</view>
+<view>3.背景图片</view>
+<view>
+  <image src="../../images/bg.jpg"></image>
+</view>
+
+<view>4.二维码图片</view>
+<view>
+  <image src="../../images/qr.jpg"></image>
+</view>
+
+<button bindtap='create'>生成</button>
+<canvas
+  canvas-id="canvas"
+  class="canvas"
+  style="position:absolute;width:{{canvasWidth}};height:{{canvasHeight}};left:{{canvasLeft}};">
+</canvas>
